@@ -38,7 +38,7 @@
                         <!-- Logo -->
                         <div class="logo">
                             <div class="logo-img">
-                                <a href="#"><img src="img/logo/logo-2.svg" alt="LOGO"></a>
+                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/logo/logo-2.svg" alt="LOGO"></a>
                             </div>
 
                             <div class="logo-text ml-15">
@@ -352,7 +352,7 @@
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
                                     <div class="img-left">
-                                        <img src="img/about/about-1.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/about/about-1.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
@@ -440,7 +440,7 @@
                                     deliverables.
                                 </p>
                                 <div class="service-icon">
-                                    <img src="img/service/folder.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/service/folder.png" alt="">
                                 </div>
                                 <span>01</span>
                             </div>
@@ -463,7 +463,7 @@
                                 </p>
                             </div>
                             <div class="service-icon">
-                                <img src="img/service/consulting.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/service/consulting.png" alt="">
                             </div>
                             <span>02</span>
                         </div>
@@ -485,7 +485,7 @@
                                 </p>
                             </div>
                             <div class="service-icon">
-                                <img src="img/service/translation.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/service/translation.png" alt="">
                             </div>
                             <span>03</span>
                         </div>
@@ -587,7 +587,7 @@
                             <div class="prices-1">
                                 <i class="fas fa-check"></i>
                                 <p>$998.0<span> / 1 Month</span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="pricing-title">
                                 <h3>Basic</h3>
@@ -595,32 +595,32 @@
                             <div class="prices-1">
                                 <i class="fas fa-check"></i>
                                 <p>$2195.0<span> / 3 Month</span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="prices-1">
                                 <i class="fas fa-check"></i>
                                 <p>$4310.0<span> / 6 Month</span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="prices-1">
                                 <i class="fas fa-check"></i>
                                 <p>$7182.0<span> / 1 Year</span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="prices-1">
                                 <i class="fas fa-check"></i>
                                 <p>Lavel-1 Category<span> / 3</span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="prices-1">
                                 <i class="fas fa-check"></i>
                                 <p>No. Of Email<span> / 3</span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="prices-1">
                                 <i class="fas fa-check"></i>
                                 <p>No. Of Phone<span> / 3</span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="prices-btn">
                                 <button> <a href="#">Buy Now</a></button>
@@ -635,7 +635,7 @@
                             <div class="prices-1">
                                 <i class="fas fa-check"></i>
                                 <p>$1470.0<span> / 1 Month</span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="pricing-title business">
                                 <h3>Business</h3>
@@ -643,32 +643,32 @@
                             <div class="prices-1">
                                 <i class="fas fa-check"></i>
                                 <p>$3234.0<span> / 3 Month</span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="prices-1">
                                 <i class="fas fa-check"></i>
                                 <p>$6351.0<span> / 6 Month</span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="prices-1">
                                 <i class="fas fa-check"></i>
                                 <p>$10584.0<span> / 1 Year</span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="prices-1">
                                 <i class="fas fa-check"></i>
                                 <p>Lavel-1 Category<span> / 10</span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="prices-1">
                                 <i class="fas fa-check"></i>
                                 <p>No. Of Email<span> / 10</span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="prices-1">
                                 <i class="fas fa-check"></i>
                                 <p>No. Of Phone<span> / 10</span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="prices-btn business">
                                 <button> <a href="#">Buy Now</a></button>
@@ -683,7 +683,7 @@
                             <div class="prices-1">
                                 <i class="fas fa-check"></i>
                                 <p>$1155.0<span> / 1 Month</span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="pricing-title starter">
                                 <h3>Starter</h3>
@@ -691,32 +691,32 @@
                             <div class="prices-1">
                                 <i class="fas fa-check"></i>
                                 <p>$2541.0<span> / 3 Month</span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="prices-1">
                                 <i class="fas fa-check"></i>
                                 <p>$4990.0<span> / 6 Month</span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="prices-1">
                                 <i class="fas fa-check"></i>
                                 <p>$8316.0<span> / 1 Year</span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="prices-1">
                                 <i class="fas fa-check"></i>
                                 <p>Lavel-1 Category<span> / 5</span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="prices-1">
                                 <i class="fas fa-check"></i>
                                 <p>No. Of Email<span> / 5</span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="prices-1">
                                 <i class="fas fa-check"></i>
                                 <p>No. Of Phone<span> / 5</span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="prices-btn starter">
                                 <button> <a href="#">Buy Now</a></button>
@@ -731,7 +731,7 @@
                             <div class="prices-1">
                                 <i class="fas fa-check"></i>
                                 <p>$0.0<span> / 7 Days</span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="pricing-title free">
                                 <h3>Free</h3>
@@ -739,32 +739,32 @@
                             <div class="prices-1 cross">
                                 <i class="fas fa-times"></i>
                                 <p>Financ Analying<span></span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="prices-1 cross">
                                 <i class="fas fa-times"></i>
                                 <p>24 Hours Support<span></span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="prices-1 cross">
                                 <i class="fas fa-times"></i>
                                 <p>Management<span></span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="prices-1">
                                 <i class="fas fa-check"></i>
                                 <p>Lavel-1 Category<span> / 1</span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="prices-1">
                                 <i class="fas fa-check"></i>
                                 <p>No. Of Email<span> / 1</span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="prices-1 cross">
                                 <i class="fas fa-times"></i>
                                 <p>No. Of Phone<span> / 0</span></p>
-                                <img src="img/line/line-12.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/line/line-12.svg" alt="">
                             </div>
                             <div class="prices-btn free">
                                 <button> <a href="#">Buy Now</a></button>
@@ -825,7 +825,7 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="footer-logo d-flex">
-                        <a href="#"><img src="img/logo/logo.svg" alt=""></a>
+                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/logo/logo.svg" alt=""></a>
                         <div class="logo-text-2">
                             <a href="#"> TENDER <br>
                                 <p>TWELVE.COM</p>
@@ -871,20 +871,20 @@
 
 
     <!-- JS here -->
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/one-page-nav-min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/jquery.meanmenu.min.js"></script>
-    <script src="js/ajax-form.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/popper.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/owl.carousel.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/isotope.pkgd.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/one-page-nav-min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/slick.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.meanmenu.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/ajax-form.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/wow.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.scrollUp.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/imagesloaded.pkgd.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.magnific-popup.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/plugins.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
 
 </html>
