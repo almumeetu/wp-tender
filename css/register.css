@@ -1,0 +1,134 @@
+/* Account-Page CSS Start HEre */
+#header{
+    background: radial-gradient( #3BC072, #0da665);
+}
+.login-page {
+    padding: 50px 0;
+    background: radial-gradient(#fff, #3BC072);
+}
+.social-linksss {
+	position: absolute;
+	bottom: 30px;
+	left: 85px;
+}
+.social-linksss ul li a {
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    color: #555555;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 36px;
+    transition: .3s;
+    margin-left: 0 !important;
+    margin-right: 20px !important;
+}
+.form-container {
+	background: #fff;
+	width: 440px;
+	height: 570px;
+	position: relative;
+	text-align: center;
+	padding: 48px 0;
+	margin: auto;
+	box-shadow: 0 0 20px 3px;
+	overflow: hidden;
+	border-radius: 8px;
+}
+.form-container span {
+    font-weight:  bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+.form-btn {
+    display: inline-block;
+}
+.form-container form {
+	max-width: 440px;
+	padding: 0 35px;
+	position: absolute;
+	top: 130px;
+	transition: transform 1s;
+}
+form input {
+	width: 100%;
+	height: 50px;
+	margin: 15px 0;
+	padding: 0 10px;
+	border: 1px solid #ccc;
+}
+form .btn {
+	width: 100%;
+	border: none;
+	cursor: pointer;
+	margin: 10px 0;
+	background: #3BC072;
+	padding: 18px 0;
+	font-size: 15px;
+	border-radius: 8px;
+}
+form .btn:focus{
+    outline: none;
+}
+#LoginForm{
+    left: -420px;
+}
+#RegForm{
+    left: 0;
+}
+
+form a {
+	font-size: 14px;
+	color: #000000;
+}
+#Indicator {
+    width: 100px;
+    border: none;
+    background: #0da665;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
+.checkboxx {
+    display: flex;
+  }
+
+  .checkboxx input[type="checkbox"] {
+	margin-left: 0px;
+	height: 20px;
+	width: 20px;
+}
+#lllll {
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+
+.container.bbackground {
+	margin-top: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+	.form-container {
+		width: 320px;
+		height: 545px;
+	}
+	#LoginForm {
+		width: 320px;
+	}
+	#lllll {
+		margin-left: 10px;
+	}
+	.checkboxx input[type="checkbox"] {
+		margin-left: 0px;
+	}
+	.social-linksss {
+		left: 40px;
+	}
+	.form-container form {
+		max-width: 320px;
+	}
+}
