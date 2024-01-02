@@ -1,109 +1,9 @@
-<!doctype html>
-<html class="no-js" lang="">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Tender</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- Header Area START Here -->
+ 
+<?php get_header(); ?>
 
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-    <!-- Place favicon.ico in the root directory -->
-
-    <!-- CSS here -->
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/animate.min.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/magnific-popup.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/meanmenu.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/slick.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/default.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/responsive.css">
-</head>
-
-<body>
-
-
-    <!-- Header Area Start Here -->
-    <div class="header-bgg">
-        <!-- Header Area Start Here -->
-        <header id="header" class="header">
-            <div class="container bbackground">
-                <div class="row">
-                    <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-6">
-                        <!-- Logo -->
-                        <div class="logo">
-                            <div class="logo-img">
-                                <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/logo/logo-2.svg" alt="LOGO"></a>
-                            </div>
-
-                            <div class="logo-text ml-15">
-                                <a href="#"> TENDER <br>
-                                    <p>TWELVE.COM</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-7 col-lg-7 col-md-6 col-sm-6 col-6">
-                        <!-- Main Menu -->
-                        <div class="main-menu">
-                            <div id="menu-icon" class="menu-icon">
-                                <i class="fas fa-bars"></i>
-                            </div>
-                            <div id="close-icon" class="close-icon">
-                                <i class="fas fa-times"></i>
-                            </div>
-                            <div class="mobile-login">
-                                <a href="login.html">Login</a>
-                                <a href="register.html">Register</a>
-                            </div>
-                            <nav id="nav">
-                                <ul class="navlist">
-                                    <li><a href="#banner">Home</a></li>
-                                    <li><a href="#about-area">About Us</a></li>
-                                    <li><a href="#service">Services</a></li>
-                                    <li><a href="#price">Price</a></li>
-                                    <li><a href="#contact-2">Contact Us</a></li>
-
-                                    <li class="center">
-                                        <div class="nav-btn block ">
-                                            <div class="login-btn">
-                                                <a href="login.html">Login</a>
-                                            </div>
-
-                                            <div class="register-btn ">
-                                                <a href="register.html">Register</a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
-                        <!-- Header Btn -->
-                        <div class="header-btn text-right ">
-                            <div class="login-btn d-inline">
-                                <a href="login.html">Login</a>
-                            </div>
-
-                            <div class="register-btn d-inline">
-                                <a href="register.html">Register</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- Header Area End Here -->
-        <!-- Header Area End Here -->
+<!-- Header Area End Here -->
 
         <!-- Banner Area Start Here -->
         <div id="banner" class="banner pb-70 pt-110">
@@ -364,7 +264,7 @@
                                         </div>
                                     </div>
                                     <div class="img-right">
-                                        <img src="img/about/about-2.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/about/about-2.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -819,72 +719,7 @@
     <!-- Contact Area End Here -->
 
 
+    
     <!-- Footer Area Start Here -->
-    <footer id="footer" class="footer pt-50">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="footer-logo d-flex">
-                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/logo/logo.svg" alt=""></a>
-                        <div class="logo-text-2">
-                            <a href="#"> TENDER <br>
-                                <p>TWELVE.COM</p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="footer-contact">
-                        <p>Address: <span>House 123, Road 05, West Agargaon,Sher-e- Bangla Nagar, Dhaka-
-                                1207</span>
-                            Phone: <span>01789123456</span>
-                            Email: <span>info@tendertwelve.com</span></p>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="social-links text-right">
-                        <div class="fc-title">
-                            <h3>Follow Us</h3>
-                        </div>
-                        <ul>
-                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin"></i></i></a></li>
-                            <li><a class="twiter" href="#"><i class="fab fa-twitter"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <hr>
-        </div>
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-12">
-                    <div class="copyright">
-                        <p class="pb-10">Copyright @2023 | Designed and Maintained by <span
-                                class="green">Tendertwelve</span></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Footer Area End Here -->
 
-
-
-    <!-- JS here -->
-    <script src="<?php echo get_template_directory_uri(); ?>/js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/popper.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/owl.carousel.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/isotope.pkgd.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/one-page-nav-min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/slick.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.meanmenu.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/ajax-form.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/wow.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.scrollUp.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/imagesloaded.pkgd.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.magnific-popup.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/plugins.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
-
-</html>
+    <?php get_footer(); ?>
